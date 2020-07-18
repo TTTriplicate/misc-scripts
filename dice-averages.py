@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+'''
+this was an  attempt to solve a fivethirtyeight riddler puzzle
+involving the probability of a convoluted variant of advantage
+and disadvantage from D&D 5e
+'''
 def factorial(n):
     if n == 1:
         return n
