@@ -1,5 +1,19 @@
 #!/usr/bin/python3
+'''
+Written for extra credit on a Networking assignment.  
+Could be easily used for any assignment involving UDP checksums
+feed it the correct header information and it outputs the checksum.
 
+Headers to feed in (in 16-bit hexadecimal words):
+    Source IP
+    Dest. IP
+    0011
+    hex(length of data in bytes)
+    The entire datagram broken into 16-bit hexadecimal words
+
+Much of this is done already by packet-siffing programs like Wireshark.
+All of this data can be extracted from there.
+'''
 
 def checksumCalc(bytes):
         '''
