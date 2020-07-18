@@ -1,5 +1,10 @@
 #!/usr/bin/python3
-
+'''
+used for physics I.
+could be used by anyone by replacing p, v, and s with their own
+required variables of....I don't remember p, (v)elocity, and
+(s)urface area.
+'''
 def coefficient(actual):
     p = 1.225
     v = 1
