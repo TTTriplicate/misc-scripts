@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 
 '''
+Written for a networking class.  With a list of given info,
+the goal was to compare whether a persistent TCP connection
+or a series of parallel TCP connection would result in a 
+faster download.
+
 connection speed 150 bps
 connection length 10 m
 100000 Kbits page
