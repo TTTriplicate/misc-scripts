@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 '''
 Written for networking class.  With some given values,
-calculates how long it would take to transfer the data
-by a stop-and-wait protocol, and the window size in 
-packets required to reach 98% utilization during a 
-pipelined transfer.
+calculates  the percent-utilization by a stop-and-wait 
+protocol, and the window size in packets required to 
+reach 98% utilization during a pipelined transfer.
 '''
 
 def maxWindow(RTT, dtrans):
