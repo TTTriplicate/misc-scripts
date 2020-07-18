@@ -1,6 +1,12 @@
 #!/usr/bin/python3
 
 '''
+Written for a networking class.  With a list of givens, 
+which is faster, peer-to-peer or client-server download?
+
+should probably be two functions, but I have no intention 
+of working on it further.
+
 20 Gbit file to N peers with downrate 5 Mbps u uprate:
     N = 10, u = 300 Kbps
     N = 100, u = 800Kbps
