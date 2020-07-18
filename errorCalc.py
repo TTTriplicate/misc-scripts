@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-
+'''
+I did this wrong, but the numbers came out pretty close.
+I'll fix it if I use it again
+'''
 import statistics
 
 experimental = [1.976, 1.613, 1.374, 0.806]
